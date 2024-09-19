@@ -1,6 +1,6 @@
 import { PHASE_DEVELOPMENT_SERVER } from "next/constants.js";
 
-export const BASE_PATH = process.env.NODE_ENV === "production" ? "/project-squid" : "";
+export const BASE_PATH = process.env.NODE_ENV === "production" ? "/christmas-table" : "";
 
 // @ts-check
 export default (phase, { defaultConfig }) => {
